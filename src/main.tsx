@@ -1,10 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles.css";
+import './global.css'
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+
+const root = document.getElementById('root') as HTMLElement
+
+// prettier-ignore
+ReactDOM
+  .createRoot(root)
+  .render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )

@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "Markdown Memo",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -20,7 +20,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.markdown-memo.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -36,8 +36,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "markdown-memo",
-        "width": 800,
+        "center": true,
+        "title": "Markdown Memo",
+        "width": 900,
         "height": 600
       }
     ]
